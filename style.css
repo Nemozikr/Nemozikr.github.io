@@ -1,31 +1,85 @@
 * {
-  font-family: "Comic Sans";
+    margin: 0;
+    padding: 0;
+    border: 1px red solid;
 }
 
-header {
-  text-align: center;
-  position: fixed;
-  display: inline-block;
-  width: 100%;
-  left: 30%;
-  right: 30%;
+header{
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 2%;
+    left: 30%;
+    right: 30%;
+    display: block;
 }
 
 main {
-  position: relative;
-  top: 50px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica;
 }
 
 aside {
-  display: inline-block;
-  position: relative;
-  right: 30%;
+    text-align: left;
+    margin: 0 0 0 90%;
+    position: relative;
+    right: 0;
+    display: block-inline;
+    background-color: crimson;
+    border: 1px red solid;
 }
 
-footer {
-  background-color: gray;
-  position: fixed;
-  display: inline-block;
-  width: 100%;
-  bottom: 0px;
+h1{
+    font-size: 19px;
+}
+
+a {
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.hidden a {
+    color: aliceblue;
+}
+
+.hidden {
+    display: none;
+}
+
+.test {
+    color: blue;
+}
+
+.meowButton {
+    
+}
+
+#hdhqButton {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(https://media.discordapp.net/attachments/1183890840033169439/1248279338957144158/a4bd6e7c-df27-476d-9df6-7f0aaf231ef9.jpg?ex=66f6157a&is=66f4c3fa&hm=fad43224b2be071708cd5e4ef1c38c72a3f858a779f9be5bb18b4471a8c3b420&=&format=webp&width=433&height=701);
+    background-size: 75px;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: chocolate;
+}
+
+#hdhqButton:hover {
+    height: 80px;
+    width: 80px;
+}
+
+#hdhqButton:active {
+    height: 60px;
+    width: 60px;
+}
+
+#upper p {
+    padding: 10px;
+    font-size: 20px;
 }
