@@ -13,6 +13,7 @@ main {
 }
 
 footer {
+  background-color: gray;
   position: fixed;
   display: inline-block;
   width: 100%;
