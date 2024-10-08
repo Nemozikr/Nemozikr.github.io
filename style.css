@@ -1,3 +1,19 @@
 * {
   font-family: "Comic Sans";
 }
+
+header {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  
+}
+
+footer {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+}
