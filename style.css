@@ -17,5 +17,12 @@ aside {
   position: fixed;
   top: 20px;
   right: 10%;
-  background-color: gray;
+  background-color: light-gray;
+}
+
+footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  background-color: light-gray;
 }
