@@ -1,3 +1,22 @@
 * {
   font-family: Papyrus;
 }
+
+header {
+  display: inline-block;
+  position: fixed;
+  
+}
+
+main {
+  position: relative:
+  top: 20px;
+}
+
+aside {
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  right: 30%;
+  background-color: gray;
+}
