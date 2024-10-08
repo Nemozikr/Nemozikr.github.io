@@ -18,4 +18,5 @@ footer {
   position: fixed;
   display: inline-block;
   width: 100%;
+  bottom: 0px;
 }
