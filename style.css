@@ -5,18 +5,17 @@
 header {
   display: inline-block;
   position: fixed;
-  
 }
 
 main {
   position: relative:
-  top: 20px;
+  top: 50px;
 }
 
 aside {
   display: inline-block;
   position: fixed;
   top: 20px;
-  right: 30%;
+  right: 10%;
   background-color: gray;
 }
