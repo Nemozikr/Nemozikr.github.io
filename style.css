@@ -9,7 +9,8 @@ header {
 }
 
 main {
-  
+  position: relative;
+  top: 50px;
 }
 
 footer {
