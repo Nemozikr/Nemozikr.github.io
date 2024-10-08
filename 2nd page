@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <title>secondary page</title
+  </head>
+
+  <body>
+    <h1>For the bants</h1>
+    <a href="./index.html">
+      <p>Time to go back now</p>
+    </a>
+  </body>
+
+</html>
