@@ -3,6 +3,7 @@
 }
 
 header {
+  text-align: center;
   position: fixed;
   display: inline-block;
   width: 100%;
@@ -13,6 +14,12 @@ header {
 main {
   position: relative;
   top: 50px;
+}
+
+aside {
+  display: inline-block;
+  position: relative;
+  right: 30%;
 }
 
 footer {
