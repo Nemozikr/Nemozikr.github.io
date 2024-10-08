@@ -1,10 +1,11 @@
 * {
-  font-family: Papyrus;
+  font-family: Helvetica;
 }
 
 header {
   display: inline-block;
   position: fixed;
+  background-color: light-gray;
 }
 
 main {
