@@ -6,6 +6,8 @@ header {
   position: fixed;
   display: inline-block;
   width: 100%;
+  left: 30%;
+  right: 30%;
 }
 
 main {
