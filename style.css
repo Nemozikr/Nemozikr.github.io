@@ -1,11 +1,14 @@
 * {
   font-family: Helvetica;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   display: inline-block;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: gray;
   width: 100%;
   text-align: center;
