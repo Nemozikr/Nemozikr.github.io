@@ -5,6 +5,15 @@
   <title>Nemozikr Page</title>
   <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    idButton = getElementByID("id-button");
+    idButton.addEventListener("click", function (alerting) {
+    console.log(this.className); // logs the className of my_element
+});
+    function alerting() {
+      alert.("I have your IP-Address >:D");
+    }
+  </script>
 </head>
   
 <body>
@@ -29,6 +38,7 @@
   <aside>
     <p>This is space for extra stuff</p>
     <a href="./hdhq-clicker"><button>hdhq</button></a>
+    <a><button id="ip-button">IP-address</button></a>
   </aside>
 
   <!-- below is the footer -->
