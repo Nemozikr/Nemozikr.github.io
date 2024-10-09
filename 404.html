@@ -4,18 +4,26 @@
     <title>
       bruh 404 error
     </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
 * {
   text-align: center;
   margin: auto;
 }
+span {
+ font-style: italic;
+}
     </style>
     
+    <script>
+      document.getElementById("back").innerHTML = "'<a href="' + document.referrer + '">time</a>'"
+    </script>
   </head>
 
   <body>
     <h1>It is what it is</h1>
     <p>You got error 404'd</p>
+    <p>Lets go back in <span id="back">time</span></p>
   </body>
 </html>
