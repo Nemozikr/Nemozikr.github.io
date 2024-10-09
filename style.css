@@ -5,7 +5,7 @@
 header {
   display: inline-block;
   position: fixed;
-  background-color: light-gray;
+  background-color: gray;
 }
 
 main {
@@ -16,14 +16,15 @@ main {
 aside {
   display: inline-block;
   position: fixed;
-  top: 20px;
+  top: 50px;
   right: 10%;
-  background-color: light-gray;
+  background-color: gray;
 }
 
 footer {
   display: inline-block;
   position: fixed;
   bottom: 0;
-  background-color: light-gray;
+  background-color: gray;
 }
+
