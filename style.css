@@ -5,11 +5,14 @@
 header {
   display: inline-block;
   position: fixed;
+  top: 0;
   background-color: gray;
+  width: 100%;
 }
 
 main {
-  position: relative:
+  display: inline-block;
+  position: relative;
   top: 50px;
 }
 
@@ -17,7 +20,8 @@ aside {
   display: inline-block;
   position: fixed;
   top: 50px;
-  right: 10%;
+  right: 0;
+  height: 100%;
   background-color: gray;
 }
 
@@ -26,5 +30,6 @@ footer {
   position: fixed;
   bottom: 0;
   background-color: gray;
+  width: 100%;
 }
 
