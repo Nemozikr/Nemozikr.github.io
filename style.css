@@ -32,5 +32,7 @@ footer {
   bottom: 0;
   background-color: gray;
   width: 100%;
+  left: 0;
+  text-align: center;
 }
 
