@@ -41,6 +41,7 @@ aside div {
     top: 10%;
     max-height: 80%;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 footer {
