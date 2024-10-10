@@ -6,10 +6,8 @@
   <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    idButton = getElementByID("id-button");
-    idButton.addEventListener("click", function (alerting) {
-    console.log(this.className); // logs the className of my_element
-});
+    idButton = getElementByID("ip-button");
+    idButton.addEventListener("click", function (alerting));
     function alerting() {
       alert.("I have your IP-Address >:D");
     }
@@ -25,29 +23,36 @@
   
   <!-- below is main part -->
   <main>
+    <div>
     <h1>Nemozikr</h1>
-  <p>Welcome to my website! yippey</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <p>Welcome to my website! yippey</p>
+    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
 
     <p>Now you can access my 2nd page hehehehehhehe</p>
 
     <a href="./2nd-page.html"><button>my 2nd page</button></a>
+    </div>
   </main>
 
   <!-- this is side stuff -->
   <aside>
-    <p>This is space for extra stuff</p>
-    <a href="./hdhq-clicker"><button>hdhq</button></a>
-    <a><button id="ip-button">IP-address</button></a>
+    <div>
+      <p>This is space for extra stuff</p>
+      <a href="./hdhq-clicker"><button>hdhq</button></a>
+      <a><button id="ip-button">IP-address</button></a>
+    </div>
   </aside>
+  <!-- end of aside -->
 
   <!-- below is the footer -->
   <footer>
-    <p>
-      "That one unemployed friend on a friday night" 
-      <span></span>
-    </p>
+    <div>
+      <span>
+        "That one unemployed friend on a friday night" me fr
+      </span>
+    </div>
   </footer>
+  <!-- end of footer -->
 </body>
 
 </html>
