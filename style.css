@@ -10,11 +10,29 @@ header {
   top: 0;
   left: 0;
   background-color: gray;
+  background-size: contain; 
   width: 100%;
   text-align: center;
   padding: 1%;
   height: 2.5%;
   z-index: 5;
+}
+
+header div {
+  position: relative;
+  top: -0.5em;
+  display: inline;
+}
+
+header span {
+  display: inline;
+  position: relative;
+  top: -2em;
+}
+
+header h1 {
+  font-size: 40px;
+  text-align: left;
 }
 
 main {
@@ -44,6 +62,22 @@ aside div {
     overflow-x: hidden;
 }
 
+aside button {
+  background-color: white;
+  display: block;
+  line-height: 2;
+  border-radius: 10%;
+  margin-top: 20px;
+}
+
+aside button:hover {
+  background-color: #cacaca;
+}
+
+aside button:active {
+  background-color: #beb6cd;
+}
+
 footer {
   display: inline-block;
   position: fixed;
@@ -59,4 +93,3 @@ footer div {
     z-index: 10;
     padding: 1%;
 }
-
