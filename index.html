@@ -5,24 +5,36 @@
   <title>Nemozikr Page</title>
   <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-    idButton = getElementByID("ip-button");
-    idButton.addEventListener("click", function (alerting));
-    function alerting() {
-      alert.(`I have your IP-Address\: ${data.ip} >:D`);
-    } 
+  
+  <style>
+.hidden {
+  visibility:hidden;
+}
+  </style>
 
-    document.addEventListener("DOMContentLoaded", function() {
-      // Fetch the IP address from the API
+  <script>
+    var ipAddress = "";
+    const ipAlert = () => {
+      if ((this.classList) =! null)
+        {
+          window.alert(`I HAVE YOUR IP ADDRESS ${ipAddress} EHEHHEEHHEHE`);
+        }
+    }
+    const showHidden = () => {
+      if ((this.classList) =! null)
+        {
+          document.getElementById("show").classList.toggle('hidden', false);
+          document.getElementById("hide").classList.toggle('hidden', true);
+        }
+  }
+  document.addEventListener("DOMContentLoaded", function() {
       fetch("https://api.ipify.org?format=json")
-          .then(response => response.json())
-          .then(data => {
-              // Display the IP address on the screen
-              document.getElementById("ip-address").textContent = data.ip;
-          })
-          .catch(error => {
-              console.error("Error fetching IP address:", error);
-          });
+        .then(response => response.json())
+        .then(data => { ipAddress = data.ip;
+        })
+        .catch(error => {
+          console.error("Error fetching IP address:", error);
+        });
     });
     
   </script>
@@ -32,13 +44,16 @@
   
   <!-- below is header part -->
   <header>
+    <div>
+      <h1>Nemozikr</h1>
+    </div>
     <a href="https://google.co.uk/" target="_blank"><span>E</span></a>
   </header>
   
   <!-- below is main part -->
   <main>
     <div>
-    <h1>Nemozikr</h1>
+    
     <p>Welcome to my website! yippey</p>
     <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
 
@@ -53,7 +68,8 @@
     <div>
       <p>This is space for extra stuff</p>
       <a href="./hdhq-clicker"><button>hdhq</button></a>
-      <a><button id="ip-button">IP-address</button></a>
+
+      <button id="ip-button" onclick="ipAlert()">IP-address</button>
     </div>
   </aside>
   <!-- end of aside -->
