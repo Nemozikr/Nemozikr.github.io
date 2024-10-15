@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML/CSS Cheatsheet
+        </title>
+        <link rel="stylesheet" href="./resources/cheatsheetStyles.css">
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <a href="./index.html"><button>&lt;</button></a>
+            <div>
+                <h1>Everything about HTML/SCC tags and attributes</h1>
+            </div>
+        </header>
+        
+        <!--Main part-->
+        <main>
+
+            <h2>Formatting the file for creation</h2>
+
+            <table class="contentTable">
+                <thead>
+                    <th></th>
+                    <th>Tag</th>
+                    <th>What It Do</th>
+                    <th>How It Look</th>
+                </thead>
+                <tbody>
+                    <td>1</td>
+                    <td>DOCTYPE</td>
+                    <td>Makes the website read document as HTML file, HTML wouldn't work without it.</td>
+                    <td class="special">&lt;&excl;DOCTYPE html&gt; &ast;</td>
+                </tbody>
+                <tbody>
+                    <td>2</td>
+                    <td>HTML</td>
+                    <td>This tag wraps around all of the HTML code in the document, <strong>there can be only one set of these sets tags.</strong></td>
+                    <td class="special">&lt;html&gt; &lt;/html&gt;</td>
+                </tbody>
+                <tbody>
+                    <td>3</td>
+                    <td>Head</td>
+                    <td>This tag wraps the data of the file, its not shown on the produced page, but can affect it.</td>
+                    <td class="special">&lt;head&gt; &lt;/head&gt;</td>
+                </tbody>
+                <tbody>
+                    <td>4</td>
+                    <td>Body</td>
+                    <td>It wraps the part where the structure of the HTML page goes, content here will be rendered onto the produced page</td>
+                    <td class="special">&lt;body&gt; &lt;/body&gt;</td>
+                </tbody>
+            </table>
+            <p>&ast; The "html" in the tag can be both upper and lower case.</p>
+            <div class="code">
+                <h2>Code Example</h2>
+                <div>
+                    <p>&lt;&excl;DOCTYPE HTML&gt; <span> &lt;-- part of the code makes it an HTML file --&gt;</span></p>
+                    <p>&lt;html&gt; <span>&lt;!-- this declares the start of HTML code--&gt;</span></p>
+                        <p>&emsp; &lt;head&gt;</p>
+                            <p>&emsp; &emsp; ...</p>
+                        <p>&emsp; &lt;/head&gt;</p>
+                        <p>&emsp; &lt;body&gt;</p>
+                            <p>&emsp; &emsp; ...</p>
+                        <p>&emsp; &lt;/body&gt;</p>
+                    <p>&lt;/html&gt; <span>&lt;--this declares the end of HTML code--&gt;</span></p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
